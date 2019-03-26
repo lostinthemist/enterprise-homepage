@@ -42,7 +42,6 @@
   height: 100%;
   background-size: 100% 100%;
   background-color: black; /* in case the video doesn't fit the whole page*/
-  background-image: /* our video */;
   background-position: center center;
   background-size: contain;
   object-fit: cover; /*cover video background */
@@ -1005,9 +1004,6 @@ video::-webkit-media-controls {
 /* sc_online END */
 
 /* sc_offline START */
-.sc_offline_textarea {
-  
-}
 .sc_offline_title {
   color:  #a8542b;
   font-size: 150px;
@@ -1087,7 +1083,7 @@ video::-webkit-media-controls {
 .sc_slider2_desc {
   font-size: 18px;
   color: #fff;
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
   padding: 100px 0 55px;
 }
