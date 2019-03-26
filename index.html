@@ -1,1 +1,837 @@
-I wonder what happens
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="UTF-8">
+	<title>Fonduer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<!-- <link rel="icon" type="image/x-icon" href="assets/images/logo_b.png" /> -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+
+	<!-- BEGIN PLUGINS -->
+    <link href="assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<!-- END PLUGINS -->
+
+	<!-- BEGIN CSS -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+	<link rel="stylesheet" href="css/fonduer.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+
+	<!-- proxima nova fonts -->
+	<link rel="stylesheet" type="text/css" href="pages/fonts/proximanova/fonts.min.css" />
+	<!-- open sans font -->
+	
+    <!-- END CSS -->
+
+	<style>
+		.blind {
+			overflow: hidden;
+			position: absolute;
+			left: 0;
+			width: 1px;
+			height: 1px;
+			margin: -1px; 
+		}
+		/* 배경사진 */
+		.section{
+			background-size: cover;
+		}
+		.slide{
+			background-size: cover;
+		}
+		.sc_slider {
+			background: url(assets/images/bg_yellow.png) no-repeat top center;
+		}
+		.sc_vision {
+			background-image: url(assets/images/bg_vision.jpg);
+			background-position: top;
+
+		}
+		.sc_mission {
+			background-image: url(assets/images/thumb_sec_mission.jpg);
+			background-position: top;
+		}
+		.sc_title {
+			background-image: url(assets/images/bg_platform.jpg);
+		}
+		.sc_online {
+			background-image: url(assets/images/bg_online.jpg);
+		}
+		.sc_slider2 {
+			background-color:  #1e1d1b;
+		}
+	</style>
+	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
+</head>
+
+<body>
+<div id="fullpage">
+	<!-- VISUAL START-->
+	<div class="section sc_visual">
+		<h1 class="blind">Enterprise name - tagline</h1>
+		<video id="myVideo" loop muted data-autoplay>
+			<source src="assets/video/Introduction.mp4" type="video/mp4">
+			<source src="assets/video/Introduction.mp4" type="video/webm">
+		</video>
+		<img src="assets/images/logo.png" width="100%" height="" data-src-retina="assets/images/logo.png" class="sc_visual_logo" alt="logo"> 
+		<div class="layer"> 
+		<h1 class="sc_visual_title font_proximanova text-uppercase">Enterprise name</h1>
+		<h2 class="sc_visual_title_desc font_proximanova text-uppercase">tagline</h2>
+		</div>
+	</div>
+	<!-- VISUAL END -->
+
+    <!-- SLIDER START -->
+    <div class="section sc_slider">
+		<h1 class="blind">slideshow</h1>
+		<div class="owl-carousel sc_slider_owl">
+			<div class="item">
+				<img src="assets/images/thumb_sec_story.jpg" alt="fonduer story image">
+				<div class="sc_slider_img_div">
+					<h2 class="sc_slider_img_div_title">Enterprise story</h2>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="assets/images/thumb_sec_mission.jpg" alt="fonduer mission image">
+				<div class="sc_slider_img_div">
+						<h2 class="sc_slider_img_div_title">enterprise mission</h2>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="assets/images/thumb_sec_platform.jpg" alt="fonduer platform image">
+				<div class="sc_slider_img_div">
+					<h2 class="sc_slider_img_div_title">enterprise platform</h2>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="assets/images/thumb_sec_online.jpg" alt="fonduer online image">
+				<div class="sc_slider_img_div">
+					<h2 class="sc_slider_img_div_title">enterprise online</h2>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="assets/images/thumb_sec_offline.jpg" alt="fonduer offline image">
+				<div class="sc_slider_img_div">
+					<h2 class="sc_slider_img_div_title">enterprise offline</h2>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="assets/images/thumb_sec_portofolio.jpg" alt="fonduer portfolio image">
+				<div class="sc_slider_img_div">
+					<h2 class="sc_slider_img_div_title">enterprise portfolio</h2>
+				</div>
+			</div>
+		</div> 
+	</div>
+	<!-- SLIDER END -->
+
+	<!-- STORY START -->
+	<div class="section sc_story">
+		<h1 class="blind">Enterprise Story</h1>
+		<div class="sc_story_left_box">
+			<div class="sc_story_left_descarea">
+				<div class="sc_story_titlearea">
+					<h2 class="sc_story_title1 font_proximanova text-uppercase">enterprise</h2>
+					<h2 class="sc_story_title2 font_proximanova text-uppercase">story</h2>
+				</div>
+				<div class="sc_story_left_desc">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div>
+		</div>
+		<div class="sc_story_center_box">
+			<div class="sc_story_center_image_box">
+				<div class="sc_story_center_image"></div>
+			</div>
+		</div>
+		<div class="sc_story_right_box">
+			<div class="sc_story_right_image_box">
+				<div class="sc_story_right_image"></div>
+			</div>
+		</div>
+	</div>
+	<!-- STORY END -->
+
+	<!-- VISION START -->
+    <div class="section sc_vision" id="">
+		<h1 class="blind">Enterprise Vision</h1>
+		<div class="container">
+			<div class="sc_vision_textarea">
+				<h2 class="sc_vision_title font_proximanova text-uppercase">enterprise <b>vision</b></h2>
+				<p class="sc_vision_desc font_proximanova">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				</p>
+			</div>
+		</div>
+	</div>
+    <!-- VISION END -->
+
+    <!-- MISSION START -->
+    <div class="section sc_mission">
+		<h1 class="blind">enterprise Mission</h1>
+		<div class="container">
+			<div class="sc_mission_titlearea">
+				<h2 class="sc_mission_title1 font_proximanova text-uppercase">Enterprise</h2>
+				<h2 class="sc_mission_title2 font_proximanova">Mission</h2>
+			</div>
+			<div class="sc_mission_descarea animated bounceInDown">
+				<p class="sc_mission_desc1">
+					Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+				</p>
+				<div class="sc_mission_arrowdown"></div>
+				<p class="sc_mission_desc2">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+				</p>
+			</div>
+		</div>
+	</div>
+    <!-- MISSION END -->
+
+    <!-- TITLE START -->
+    <div class="section sc_title">
+		<h1 class="blind">Enterprise Titles</h1>
+		<div class="sc_title_boxarea">
+			<div class="sc_title_box sc_title_box1">
+				<h2 class="sc_title_heading font_proximanova">title</h2>
+				<p class="sc_title_desc font_proximanova">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid</p>
+				<!-- dot area START -->
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<!-- dot area END -->
+				<div class="sc_title_imgarea">
+					<img src="assets/images/icon_01.png" class="sc_title_img" alt="icon 1">
+				</div>	
+			</div>
+			<div class="sc_title_box sc_title_box2">
+				<h2 class="sc_title_heading font_proximanova">title</h2>
+				<p class="sc_title_desc font_proximanova">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid</p>
+				<!-- dot area START -->
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<!-- dot area END -->
+				<div class="sc_title_imgarea">
+					<img src="assets/images/icon_02.png" class="sc_title_img" alt="icon 1">
+				</div>	
+			</div>
+			<div class="sc_title_box sc_title_box3">
+				<h2 class="sc_title_heading font_proximanova">title</h2>
+				<p class="sc_title_desc font_proximanova">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid</p>
+				<!-- dot area START -->
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<!-- dot area END -->
+				<div class="sc_title_imgarea">
+					<img src="assets/images/icon_03.png" class="sc_title_img" alt="icon 1">
+				</div>	
+			</div>
+			<div class="sc_title_box sc_title_box4">
+				<h2 class="sc_title_heading font_proximanova">title</h2>
+				<p class="sc_title_desc font_proximanova">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid</p>
+				<!-- dot area START -->
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<div class="sc_title_dot"></div>
+				<!-- dot area END -->
+				<div class="sc_title_imgarea">
+					<img src="assets/images/icon_04.png" class="sc_title_img" alt="icon 1">
+				</div>	
+			</div>
+		</div>
+		<div class="sc_title_svgarea">
+                <svg class="editorial"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28"
+                preserveAspectRatio="none">
+                    <defs>
+                        <path id="gentle-wave"
+                        d="M-160 44c30 0 
+                        58-18 88-18s
+                        58 18 88 18 
+                        58-18 88-18 
+                        58 18 88 18
+                        v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="50" y="0" fill="#9f4b23" style="opacity:.5;"/>
+                        <use xlink:href="#gentle-wave" x="50" y="3" fill="#9f4b23" style="opacity:.6;"/>
+                        <use xlink:href="#gentle-wave" x="50" y="6" fill="#9f4b23" style="opacity:1;"/>  
+                    </g>
+                </svg>
+                <div class="content">
+                </div>
+            </div>
+	</div>
+    <!-- TITLE END -->
+
+    <!-- ONLINE START -->
+    <div class="section sc_online">
+		<h1 class="blind">Enterprise Online Platform</h1>
+		<div class="container">
+			<div class="sc_online_textarea">
+				<h2 class="sc_online_title font_proximanova">Online</h2>
+				<p class="sc_online_desc font_proximanova">TLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid Lorem ipsum dolor sit ame <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				
+			</div>
+		</div>
+		<div class="sc_online_svg_box">
+			<svg class="editorial"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			viewBox="0 24 150 28"
+			preserveAspectRatio="none">
+				<defs>
+					<path id="gentle-wave"
+					d="M-160 44c30 0 
+					58-18 88-18s
+					58 18 88 18 
+					58-18 88-18 
+					58 18 88 18
+					v44h-352z" />
+				</defs>
+				<g class="parallax">
+					<use xlink:href="#gentle-wave" x="50" y="0" fill="#9f4b23" style="opacity:.4;"/>
+					<use xlink:href="#gentle-wave" x="50" y="3" fill="#9f4b23" style="opacity:.4;"/>
+					<use xlink:href="#gentle-wave" x="50" y="6" fill="#9f4b23" style="opacity:.5;"/>
+				</g>
+			</svg>
+		</div>
+		<div class="sc_online_svg_box2">
+			<svg class="editorial"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			viewBox="0 24 150 28"
+			preserveAspectRatio="none">
+				<defs>
+					<path id="gentle-wave"
+					d="M-160 44c30 0 
+					58-18 88-18s
+					58 18 88 18 
+					58-18 88-18 
+					58 18 88 18
+					v44h-352z" />
+				</defs>
+				<g class="parallax">
+					<use xlink:href="#gentle-wave" x="50" y="0" fill="#9f4b23" style="opacity:.4;"/>
+					<use xlink:href="#gentle-wave" x="50" y="3" fill="#9f4b23" style="opacity:.5;"/>
+					<use xlink:href="#gentle-wave" x="50" y="6" fill="#9f4b23" style="opacity:.4;"/>
+				</g>
+			</svg>
+		</div>
+	</div>
+	<!-- ONLINE END -->
+	
+
+    <!-- OFFLINE START -->
+    <div class="section sc_offline">
+		<h1 class="blind">Enterprise Offline Project</h1>
+		<div class="container">
+			<div class="sc_offline_textarea text-center">
+				<h2 class="sc_offline_title font_proximanova">Offline</h2>
+				<p class="sc_offline_desc font_proximanova">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+			</div>
+			<div class="row desktop">
+				<div class="col-6 col-sm-6 col-md-6 sc_offline_image1">
+					<img class="sc_offline_image" src="assets/images/img_offline_01.png" alt="Offline orchestra">
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 sc_offline_image2">
+					<img class="sc_offline_image" src="assets/images/img_offline_02.png" alt="Offline orchestra">
+				</div>
+			</div>
+		</div>
+		<div class="owl-carousel owl-mobile mobile_hidden">
+			<div class="item ">
+				<img class="sc_offline_image_mobile" src="assets/images/img_offline_01.png" alt="Offline orchestra">
+			</div>
+			<div class="item">
+				<img class="sc_offline_image_mobile" src="assets/images/img_offline_02.png" alt="Offline orchestra">
+			</div>
+		</div>
+	</div>
+    <!-- OFFLINE END -->
+
+    <!-- SLIDER 2 START-->
+    <div class="section sc_slider2">
+		<h1 class="blind">Enterprise Introduction and Slideshow</h1>
+		<div class="sc_slider2_desc">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat \<br/>
+			Lorem ipsum dolor sit amet, consectetur adipis.
+		</div>
+		<div class="sc_slider2_image_title">singapore</div>
+		<div class="owl-carousel owl-theme">
+			<div class="item">
+				<img src="assets/images/portfolio_01.jpg" class="sc_slider2_image" alt="portfolio image1">
+				<div class="sc_slider2_images_div"></div>
+			</div>
+			<div class="item">
+				<img src="assets/images/portfolio_02.jpg" class="sc_slider2_image" alt="portfolio image2">
+				<div class="sc_slider2_images_div"></div>
+			</div>
+			<div class="item">
+				<img src="assets/images/portfolio_03.jpg" class="sc_slider2_image" alt="portfolio image3">
+				<div class="sc_slider2_images_div"></div>
+			</div>
+			<div class="item">
+				<img src="assets/images/portfolio_04.jpg" class="sc_slider2_image" alt="portfolio image4">
+				<div class="sc_slider2_images_div"></div>
+			</div>
+			<div class="item">
+				<img src="assets/images/portfolio_05.jpg" class="sc_slider2_image" alt="portfolio image5"> 
+				<div class="sc_slider2_images_div"></div>        
+			</div>
+			<div class="item">
+				<img src="assets/images/portfolio_06.jpg" class="sc_slider2_image" alt="portfolio image6"> 
+				<div class="sc_slider2_images_div"></div>
+			</div>
+		</div>
+	</div>
+	<!-- SLIDER 2 END -->
+	
+
+    <!-- ASSOCIATION START -->
+    <div class="section sc_association">
+		<h1 class="blind">Association</h1>
+		<div class="circles"></div>
+		<div class="circles2"></div>
+		<div class="container">
+			<div class="sc_association_textarea">
+				<h2 class="sc_association_title font_proximanova">In Association with</h2>
+				<p class="sc_association_desc font_proximanova">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			</div>
+			<div class="row sc_association_logoarea">
+				<div class="col-4 col-sm-4 col-md-4 text-center">
+					<img class="logo_image" src="assets/images/logo.png" alt="logo">
+				</div>
+				<div class="col-4 col-sm-4 col-md-4 text-center">
+					<img class="logo_image" src="assets/images/logo.png" alt="logo">
+				</div>
+				<div class="col-4 col-sm-4 col-md-4 text-center">
+					<img class="logo_image" src="assets/images/logo.png" alt="logo">
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- ASSOCIATION END -->
+
+    <!-- MAP START -->
+    <div class="section sc_map">
+		<h1 class="blind">Location of both offices in Seoul and Tallinn</h1>
+		<h2 class="contact_circle">contact</h2>
+		<div class="sc_map_row_tallinn clearfix">
+			<div class="col-sm-6 col-xs-12 sc_map_tallinn_contact">
+				<div class="sc_map_descarea">
+					<h2 class="sc_map_desc_title title_tallinn">Tallinn</h2>
+					<address>Telliskivi, Tallinn, Estonia</address>
+					<p class="sc_map_desc_tel">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<strong>TEL</strong> (877) 412-7766
+					</p>
+					<p class="sc_map_desc_fax">
+						<i class="fa fa-fax" aria-hidden="true"></i>
+						<strong>FAX</strong> (877) 412-7766
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12 sc_map_tallinn_location">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2028.5723874711723!2d24.728161951894386!3d59.44020608160793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692937deb1bb88b%3A0xa5820845127de827!2sTelliskivi+60%2C+10149+Tallinn%2C+Estonia!5e0!3m2!1sen!2skr!4v1516760793239" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="sc_map_row_seoul clearfix">
+			<div class="col-sm-6 col-xs-12 sc_map_seoul_location">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.511031939233!2d127.02539975125934!3d37.49586357971213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca15a5b53a15f%3A0x72f4e81747a233dd!2sHyundai+Card+fin+Beta!5e0!3m2!1sen!2skr!4v1516760866707" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="col-sm-6 col-xs-12 sc_map_seoul_contact">
+				<div class="sc_map_descarea">
+					<h2 class="sc_map_desc_title title_seoul">Seoul</h2>
+					<address>Seocho-gu, Seoul, Republic of Korea</address>
+					<p class="sc_map_desc_tel">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<strong>TEL</strong> (877) 412-7766
+					</p>
+					<p class="sc_map_desc_fax">
+						<i class="fa fa-fax" aria-hidden="true"></i>
+						<strong>FAX</strong> (877) 412-7766
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+    <!-- MAP END -->
+
+	<script src="vendors/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="vendors/scrolloverflow.js"></script>
+	<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+	
+	<script>
+		$('#fullpage').fullpage({
+			'css3': true,
+			'verticalCentered': true,
+			'navigation': true,
+			'navigationPosition': 'right',
+			'navigationTooltips': ['Section1', 'Section2', 'Section3', 'Section4', 'Section5', 'Section6', 'Section7', 'Section8', 'Section9', 'Section10', 'Section11'],
+			afterLoad: function(anchorLink, index){
+			if ( index == 1 ){
+				$('#fp-nav').addClass('blackClass');
+			} else if ( index == 2 ){
+				$('#fp-nav').removeClass('blackClass');
+				$('.sc_story_center_box, .sc_story_right_box').removeClass('active');
+			} else if (index == 3){
+				$('#fp-nav').removeClass('blackClass');
+				setTimeout(function(){
+					$('.sc_story_center_box').delay(3000).addClass('active');
+				}, 150);
+				setTimeout(function(){
+					$('.sc_story_right_box').delay(6000).addClass('active');
+				}, 300);
+			} else if (index == 4){
+				$('.sc_story_center_box, .sc_story_right_box').removeClass('active');
+
+				$('.sc_mission_descarea').addClass('fadeOut');
+				$('.sc_mission_descarea').removeClass('bounceInDown');
+			} else if( index == 5 ){
+				$('#fp-nav').removeClass('blackClass');
+
+				$('.sc_mission_descarea').removeClass('fadeOut');
+				$('.sc_mission_descarea').addClass('bounceInDown');
+				
+				// 
+				$('.sc_title_imgarea').css({'opacity':'0'});
+				$('.sc_title_dot').css({'opacity':'0'});
+				$('.sc_title_desc').css({'opacity':'0'});
+				$('.sc_title_heading').css({'opacity':'0'});
+			} else if( index == 6 ){
+				$('#fp-nav').removeClass('blackClass');
+
+				$('.sc_mission_descarea').addClass('fadeOut');
+				$('.sc_mission_descarea').removeClass('bounceInDown');
+
+				// sc_title animations
+				// title_box1
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_imgarea').css({'opacity':'1'});
+				}, 600);
+
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_dot:eq(9)').css({'opacity':'1'});
+				}, 800);
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_dot:eq(8)').css({'opacity':'1'});
+				}, 850);
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_dot:eq(7)').css({'opacity':'1'});
+				}, 900);
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_dot:eq(6)').css({'opacity':'1'});
+				}, 950);
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_dot:eq(5)').css({'opacity':'1'});
+				}, 1000);
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_dot:eq(4)').css({'opacity':'1'});
+				}, 1050);
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_dot:eq(3)').css({'opacity':'1'});
+				}, 1100);
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_dot:eq(2)').css({'opacity':'1'});
+				}, 1150);
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_dot:eq(1)').css({'opacity':'1'});
+				}, 1200);
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_dot:eq(0)').css({'opacity':'1'});
+				}, 1250);
+
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_desc').css({'opacity':'1'});
+				}, 1550);
+				setTimeout(function(){
+					$('.sc_title_box1').find('.sc_title_heading').css({'opacity':'1'});
+				}, 1650);
+
+				// title_box2
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_imgarea').css({'opacity':'1'});
+				}, 1700);
+
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_dot:eq(9)').css({'opacity':'1'});
+				}, 1900);
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_dot:eq(8)').css({'opacity':'1'});
+				}, 1950);
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_dot:eq(7)').css({'opacity':'1'});
+				}, 2000);
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_dot:eq(6)').css({'opacity':'1'});
+				}, 2050);
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_dot:eq(5)').css({'opacity':'1'});
+				}, 2100);
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_dot:eq(4)').css({'opacity':'1'});
+				}, 2150);
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_dot:eq(3)').css({'opacity':'1'});
+				}, 2200);
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_dot:eq(2)').css({'opacity':'1'});
+				}, 2250);
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_dot:eq(1)').css({'opacity':'1'});
+				}, 2300);
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_dot:eq(0)').css({'opacity':'1'});
+				}, 2350);
+
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_desc').css({'opacity':'1'});
+				}, 2650);
+				setTimeout(function(){
+					$('.sc_title_box2').find('.sc_title_heading').css({'opacity':'1'});
+				}, 2700);
+
+				// title_box3
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_imgarea').css({'opacity':'1'});
+				}, 2750);
+
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_dot:eq(9)').css({'opacity':'1'});
+				}, 2950);
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_dot:eq(8)').css({'opacity':'1'});
+				}, 3000);
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_dot:eq(7)').css({'opacity':'1'});
+				}, 3050);
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_dot:eq(6)').css({'opacity':'1'});
+				}, 3100);
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_dot:eq(5)').css({'opacity':'1'});
+				}, 3150);
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_dot:eq(4)').css({'opacity':'1'});
+				}, 3200);
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_dot:eq(3)').css({'opacity':'1'});
+				}, 3250);
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_dot:eq(2)').css({'opacity':'1'});
+				}, 3250);
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_dot:eq(1)').css({'opacity':'1'});
+				}, 3300);
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_dot:eq(0)').css({'opacity':'1'});
+				}, 3350);
+
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_desc').css({'opacity':'1'});
+				}, 3650);
+				setTimeout(function(){
+					$('.sc_title_box3').find('.sc_title_heading').css({'opacity':'1'});
+				}, 3700);
+
+				// title_box4
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_imgarea').css({'opacity':'1'});
+				}, 3750);
+
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_dot:eq(9)').css({'opacity':'1'});
+				}, 3950);
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_dot:eq(8)').css({'opacity':'1'});
+				}, 4000);
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_dot:eq(7)').css({'opacity':'1'});
+				}, 4050);
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_dot:eq(6)').css({'opacity':'1'});
+				}, 4100);
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_dot:eq(5)').css({'opacity':'1'});
+				}, 4150);
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_dot:eq(4)').css({'opacity':'1'});
+				}, 4200);
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_dot:eq(3)').css({'opacity':'1'});
+				}, 4250);
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_dot:eq(2)').css({'opacity':'1'});
+				}, 4300);
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_dot:eq(1)').css({'opacity':'1'});
+				}, 4350);
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_dot:eq(0)').css({'opacity':'1'});
+				}, 4400);
+
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_desc').css({'opacity':'1'});
+				}, 4700);
+				setTimeout(function(){
+					$('.sc_title_box4').find('.sc_title_heading').css({'opacity':'1'});
+				}, 4750);
+			} else if( index == 7 ){
+				$('#fp-nav').removeClass('blackClass');
+				// offline animation remove
+
+				$('.sc_offline_image1').css({'opacity':'0'});
+				$('.sc_offline_image2').css({'opacity':'0'});
+				$('.sc_title_imgarea').css({'opacity':'0'});
+				$('.sc_title_dot').css({'opacity':'0'});
+				$('.sc_title_desc').css({'opacity':'0'});
+				$('.sc_title_heading').css({'opacity':'0'});
+			} else if (index == 8){
+				// offline animation
+
+				setTimeout(function(){
+					$('.sc_offline').find('.sc_offline_image1').css({'opacity':'1'});
+				}, 600);
+				setTimeout(function(){
+					$('.sc_offline').find('.sc_offline_image2').css({'opacity':'1'});
+				}, 900);
+
+				$('#fp-nav').addClass('blackClass');
+			} else if (index == 9) {
+				$('#fp-nav').removeClass('blackClass');
+				$('.sc_offline_image1').css({'opacity':'0'});
+				$('.sc_offline_image2').css({'opacity':'0'});
+			} else if (index == 10){
+				$('#fp-nav').addClass('blackClass');
+			} else {
+				$('#fp-nav').removeClass('blackClass');
+				}     
+			}
+		});
+
+		$('.sc_slider .owl-carousel').owlCarousel({
+			loop: true,
+			// margin: 100,
+			// stagePadding: 50,
+			nav: true,
+			center: true,
+			responsiveRefreshRate: 200,
+			responsive: {
+				0: {
+					items:1,
+					autoplay: true,
+					autoplayTimeout: 2500,
+					// margin: 0,
+					},
+				990: {
+					items: 1.2,
+					margin: 200,
+					stagePadding: 150,
+
+					}
+				}
+			});
+		
+		$('.sc_offline .owl-carousel').owlCarousel({
+			loop: true,
+			nav: false,
+			center: true,
+			items: 1,
+			margin: 0,
+			stagePadding: 0,
+			// autoWidth: true,
+			autoplay: true,
+			autoplayTimeout: 2500,
+			responsiveRefreshRate: 200,
+
+			});
+
+		$('.sc_slider2 .owl-carousel').owlCarousel({
+			loop:true,
+			margin: 150,
+			nav:true,
+			center:true,
+			responsive:{
+				0:{
+					items: 1,
+					autoplay: true,
+					autoplayTimeout: 2500,
+				},
+				767:{
+					items: 1.7
+				},
+				1000:{
+					items: 1.7
+				}
+			},
+			onTranslated: function(elem) {
+				var portfolio_image_number = $('.sc_slider2 .owl-item.active.center').find('img').attr('src').substring(25,26);
+				if( portfolio_image_number == '1'){
+					$('.sc_slider2_image_title').html('singapore');
+				} else if (portfolio_image_number == '2') {
+					$('.sc_slider2_image_title').html('seoul');
+				} else if (portfolio_image_number == '3') {
+					$('.sc_slider2_image_title').html('tallinn');
+				} else if (portfolio_image_number == '4') {
+					$('.sc_slider2_image_title').html('paris');
+				} else if (portfolio_image_number == '5') {
+					$('.sc_slider2_image_title').html('new york');
+				} else {
+					$('.sc_slider2_image_title').html('portfolio');
+				}
+			}
+		});
+	</script>
+</body>
+</html>
